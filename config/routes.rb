@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 }
 
   root "homes#index"
+
+  get "users" => "users#index"
+  get "messages/:id" => "messages#show", as:'messages'
 end
