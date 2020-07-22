@@ -1,6 +1,6 @@
 class MessagesController < ApplicationController
     def show
-        @send_messages = 
+        @send_messages = 　
         @receive_messages = 
     end
 end
